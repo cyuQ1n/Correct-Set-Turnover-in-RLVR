@@ -1,0 +1,9 @@
+include requirements.txt README.md README_zh.md LICENSE Makefile
+include examples/remind/run_grpo.sh examples/remind/run_grpo_remind.sh
+recursive-include examples/remind/configs *.yaml
+recursive-include examples/remind/format_prompt *.jinja
+recursive-include examples/remind/reward_function *.py
+recursive-include scripts *.py *.sh
+recursive-include tests *.py
+recursive-include assets *.png
+global-exclude __pycache__ *.py[cod]

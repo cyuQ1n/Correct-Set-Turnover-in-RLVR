@@ -1,0 +1,13 @@
+codetiming
+datasets
+jinja2
+omegaconf
+pandas
+pillow
+psutil
+qwen-vl-utils[decord]==0.0.14
+ray[default]
+ruff==0.11.13
+tensordict
+torchdata
+transformers==4.57.3
